@@ -1,0 +1,65 @@
+ body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    font-family: Arial, sans-serif;
+ }
+  .neumorphic{
+    background: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px #a3b1c6, -20px -20px 30px #ffffff;
+   
+  }
+  /* outer shadow and inner light*/
+  .neumorphic-inset {
+    background: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: inset 20px 20px 30px #a3b1c6, inset -20px -20px 30px #ffffff;
+   
+  }
+  .neumorphic-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    background: rgba(255,67,67,0.732);;
+   
+  }
+  .neumorphic-input{
+    padding: 15px;
+    width: 80%;
+    font-size: 16px;
+    color: #6d7582;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+  }
+  .neumorphic-input:focus{
+   border: 2px solid #ff994f;
+   
+  }
+  h1{
+   color:orange;
+  }
+  .neumorphic-input::placeholder{
+      color: #6d7560;
+  }
+  .neumorphic-button{
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #6d7582;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .neumorphic-button:active{
+   box-shadow: inset 5px 5px 10px #a3b1cb, inset -5px -5px 10px #ffffff;
+   
+  }
+  
